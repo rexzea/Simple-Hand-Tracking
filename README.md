@@ -1,6 +1,8 @@
+# 🤚 HandTrack ML
+
 So here I will develop a hand tracking tool using Python. Every number of days seen will be converted into a number (1, 2, 3, -etc)
 
-# 🤚 HandTrack ML
+
 
 A machine learning based hand recognition system currently under active development. This project aims to accurately detect and track hand movements in real time using computer vision and deep learning techniques.
 
@@ -28,14 +30,6 @@ This project is currently in active development. Features and documentation will
 - ❌ Hand pose estimation (Planned)
 - ❌ Gesture command system (Planned)
 
-## 🎯 Project Goals
-
-- Accurate real time hand detection
-- Support for multiple hand tracking
-- Gesture recognition and classification
-- Low latency processing
-- Cross-platform compatibility
-- Easy integration with other applications
 
 ## 🔧 Technical Stack
 
