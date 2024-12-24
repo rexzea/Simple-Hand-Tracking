@@ -1,6 +1,6 @@
 # 🤚 HandTrack ML
 
-So here I will develop a hand tracking tool using Python. Every number of days seen will be converted into a number (1, 2, 3, -etc)
+So here I will develop a hand tracking tool using Python. Every number of finger seen will be converted into a number (1, 2, 3, -etc)
 
 
 
