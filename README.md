@@ -6,7 +6,8 @@ A machine learning based hand recognition system currently under active developm
 
 ## 🎥 Demo Video
 
-![Demo GIF](hand.gif)
+[Watch the Demo Video](handtracking.mp4)
+
 
 
 ## 🚧 Development Status
