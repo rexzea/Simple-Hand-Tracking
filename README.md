@@ -83,4 +83,4 @@ No : +62 898-8610-455
 
 
 ---
-⚠️ Note: This is a development version. APIs and features may change significantly before the first stable release.
+⚠️ Note: This is still in development version. APIs and features may change significantly before the first stable release.
