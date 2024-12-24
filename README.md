@@ -4,9 +4,15 @@ So here I will develop a hand tracking tool using Python. Every number of days s
 
 A machine learning based hand recognition system currently under active development. This project aims to accurately detect and track hand movements in real time using computer vision and deep learning techniques.
 
-## 🎥 Demo Video
+## 🎥 Demo 
+# Watch Demo Video
 
 [Watch the Demo Video](handtracking.mp4)
+
+
+## Preview
+
+![Hand Tracking](handtracking.jpeg)
 
 
 
