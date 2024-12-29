@@ -8,6 +8,7 @@
 ![](assets/handtracking.png)
 
 
+
 <div align="center">
 
 ```
@@ -91,6 +92,8 @@ Butuh bantuan? Temukan kami di:
 ```
 🌟 Dibuat dengan ❤️ oleh Rexzea 🌟
 ```
+![Logo Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
+
 
 </div>
 
