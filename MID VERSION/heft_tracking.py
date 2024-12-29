@@ -182,7 +182,7 @@ def main():
 
         tracker.save_gesture_data()
 
-        cv2.imshow("Advanced Hand Tracking", img)
+        cv2.imshow("Rexzea Heft Hand Tracking", img)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
