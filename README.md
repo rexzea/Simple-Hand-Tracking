@@ -1,4 +1,4 @@
-# 🖐️ Hand Tracking
+# ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Hand Tracking
 
 ![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-red.svg)
@@ -88,17 +88,17 @@ Butuh bantuan? Temukan kami di:
 +62 898-8610-455
 
 <div align="center">
-![Logo Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 
+
+![Logo Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 ```
 🌟 Dibuat dengan ❤️ oleh Rexzea 🌟
 ```
-
 
 </div>
 
 ---
 
 <div align="center">
-⭐ Jangan lupa beri bintang jika projectnya bagus! ⭐
+⭐ Jangan lupa beri bintang kalau projectnya bagus! ⭐
 </div>
