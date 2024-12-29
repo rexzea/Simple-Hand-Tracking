@@ -1,0 +1,14 @@
+version: 1.0
+project:
+  name: Hand Tracking Without External Modules
+  description: >
+    Basic hand tracking implementation without using external libraries like OpenCV, Mediapipe, or NumPy.
+    Results are less accurate and visually unappealing.
+  goals:
+    - Explore hand tracking using only core Python.
+    - Avoid external dependencies for lightweight use.
+  limitations:
+    - Low accuracy.
+    - Visually unappealing results.
+  dependencies: []
+  status: completed
