@@ -4,6 +4,10 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-red.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+
+![](assets/handtracking.png)
+
+
 <div align="center">
 
 ```
@@ -79,7 +83,7 @@ Dapat error? Jangan panik dulu!
 
 Butuh bantuan? Temukan kami di:
 - 📧 Email: [futzfary@gmail.com]
-- 
+  
 +62 898-8610-455
 
 <div align="center">
@@ -93,5 +97,5 @@ Butuh bantuan? Temukan kami di:
 ---
 
 <div align="center">
-⭐ Jangan lupa beri bintang jika projectnya membantu! ⭐
+⭐ Jangan lupa beri bintang jika projectnya bagus! ⭐
 </div>
