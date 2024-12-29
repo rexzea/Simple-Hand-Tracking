@@ -134,7 +134,7 @@ class HandGestureRecognizer:
                     2
                 )
             
-            cv2.imshow("Simple Hand Gesture Recognition", frame)
+            cv2.imshow("Rexzea Simple Hand Gesture Recognition", frame)
             
             cv2.imshow("Threshold", thresh)
 
