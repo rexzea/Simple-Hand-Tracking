@@ -88,11 +88,11 @@ Butuh bantuan? Temukan kami di:
 +62 898-8610-455
 
 <div align="center">
+![Logo Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 
 ```
 🌟 Dibuat dengan ❤️ oleh Rexzea 🌟
 ```
-![Logo Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg)
 
 
 </div>
