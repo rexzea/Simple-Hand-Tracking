@@ -1,0 +1,17 @@
+version: 3.0
+project:
+  name: Complex Hand Tracking
+  description: >
+    A more advanced implementation of hand tracking with a complex code structure.
+    High processing requirements make this version slower and heavier.
+  goals:
+    - Achieve detailed hand tracking with a complex architecture.
+    - Experiment with advanced algorithms.
+  limitations:
+    - High computational cost.
+    - Slower processing time.
+  dependencies:
+    - opencv-python
+    - mediapipe
+    - numpy
+  status: completed
