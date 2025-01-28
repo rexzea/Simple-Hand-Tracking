@@ -34,7 +34,7 @@ class RexzeaHeftTracking:
             "peace": False
         }
         
-        # ini warna
+        # color
         self.colors = {
             "blue": (255, 0, 0),
             "green": (0, 255, 0),
@@ -168,7 +168,7 @@ def main():
     
     tracker = RexzeaHeftTracking(detection_con=0.8, track_con=0.8)
 
-    cv2.namedWindow("Advanced Hand Tracking", cv2.WINDOW_NORMAL)
+    cv2.namedWindow("Rexzea Hand Tracking", cv2.WINDOW_NORMAL)
     
     while True:
         success, img = cap.read()
@@ -182,7 +182,7 @@ def main():
 
         tracker.save_gesture_data()
 
-        cv2.imshow("Advanced Hand Tracking", img)
+        cv2.imshow("Rexzea Hand Tracking", img)
 
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
