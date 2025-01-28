@@ -18,7 +18,7 @@ class RexzeaGameTracking:
         )
         self.mp_draw = mp.solutions.drawing_utils
         
-        # pygame buat suara
+        # pygame 
         pygame.init()
         pygame.mixer.init()
         
@@ -152,7 +152,7 @@ class RexzeaGameTracking:
                     pass
                 
             elif gesture == "palm":
-                # efek gelombang pyarr pyarr pyaarrrrr
+                # efek partikel 
                 self.add_particle_effect(hand_position, "palm")
                 self.score += 5
                 try:
