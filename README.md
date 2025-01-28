@@ -11,7 +11,7 @@
 ![](assets/handtracking.png)
 
 ```
-🌟 Advanced Hand Gesture Recognition System 🌟
+🌟 Hand Gesture Recognition 🌟
 Real time hand tracking powered by Computer Vision and Machine Learning
 ```
 </div>
