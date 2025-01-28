@@ -351,7 +351,7 @@ def main():
         gesture_smoothing=5
     )
 
-    cv2.namedWindow("High Precision Hand Tracking", cv2.WINDOW_NORMAL)
+    cv2.namedWindow("Rexzea Hand Tracking", cv2.WINDOW_NORMAL)
     
     try:
         while True:
