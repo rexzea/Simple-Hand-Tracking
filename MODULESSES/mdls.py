@@ -5,7 +5,7 @@ from sklearn.svm import SVC
 import os
 
 class Rexzeamdls:
-    def __init__(self):
+    def __init__(self): 
         self.cap = cv2.VideoCapture(0)
 
         self.classifier = SVC(kernel='rbf', probability=True)
