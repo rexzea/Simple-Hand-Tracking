@@ -59,7 +59,7 @@ Core Technologies:
 git clone https://github.com/rexzea/Simple-Hand-Tracking.git
 
 # Navigate to project directory
-cd [select the file you want to select]
+cd Simple-Hand-Tracking
 
 # Create and activate virtual environment (recommended)
 python -m venv venv
