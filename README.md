@@ -1,20 +1,44 @@
 # ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) Hand Tracking - Interactive Gesture Recognition
 
-![Python Version](https://img.shields.io/badge/python-3.7%2B-blue.svg)
-![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-red.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-![Made with love](https://img.shields.io/badge/Made%20with-Love-pink.svg)
-
 <div align="center">
 
-<video width="100%" controls>
-  <source src="assets/subwaytrim.mp4" type="video/mp4">
-</video>
+
+![Project Banner](assets/subway.png)
+
+[![GitHub stars](https://img.shields.io/github/stars/rexzea/Simple-Hand-Tracking?style=social)](https://github.com/rexzeae/Simple-Hand-Tracking/stargazers)
+
+[![Python Version](https://img.shields.io/badge/Python-3.7%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-green?style=for-the-badge&logo=opencv&logoColor=white)](https://opencv.org/)
+[![MediaPipe](https://img.shields.io/badge/MediaPipe-Latest-orange?style=for-the-badge&logo=google&logoColor=white)](https://mediapipe.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+Transform your gaming experience with hand gesture controls! Play Subway Surfers using natural hand movements, powered by advanced computer vision technology.
+
+ [Report Bug](link-to-issues) • [Request Feature](link-to-issues)
+
+</div>
+
+---
+
+## 🌟 Features Showcase
+
+<table>
+<tr>
+<td width="50%">
+
+### Hand Gesture Controls
+- 👉 **Right Movement**: Slide hand right
+- 👈 **Left Movement**: Slide hand left
+- 🔼 **Jump**: Raise hand up
+- 🔽 **Roll**: Lower hand down
+- ✊ **Skateboard Mode**: Make a fist
+</td>
+</tr>
+</table>
 
 
 
-![](assets/handtracking.png)
+
 
 ```
 🌟 Hand Gesture Recognition 🌟
@@ -22,8 +46,6 @@ Real time hand tracking powered by Computer Vision and Machine Learning
 ```
 </div>
 
-## 🎯 Overview
-This project implements a realtime hand tracking system that can detect and interpret hand gestures using computer vision technology. Perfect for interactive applications, gaming, and gesture controlled interfaces.
 
 ## ✨ Key Features
 - 🔍 **Hand Detection**
