@@ -8,6 +8,12 @@
 
 <div align="center">
 
+<video width="100%" controls>
+  <source src="assets/subwaytrim.mp4" type="video/mp4">
+</video>
+
+
+
 ![](assets/handtracking.png)
 
 ```
