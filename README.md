@@ -20,21 +20,7 @@ Transform your gaming experience with hand gesture controls! Play Subway Surfers
 
 ---
 
-## 🌟 Features Showcase
 
-<table>
-<tr>
-<td width="50%">
-
-### Hand Gesture Controls
-- 👉 **Right Movement**: Slide hand right
-- 👈 **Left Movement**: Slide hand left
-- 🔼 **Jump**: Raise hand up
-- 🔽 **Roll**: Lower hand down
-- ✊ **Skateboard Mode**: Make a fist
-</td>
-</tr>
-</table>
 
 
 
@@ -47,7 +33,17 @@ Real time hand tracking powered by Computer Vision and Machine Learning
 </div>
 
 
-## ✨ Key Features
+##  Key Features
+
+- ✨ Hand Gesture Controls
+  - 👉 **Right Movement**: Slide hand right
+  - 👈 **Left Movement**: Slide hand left
+  - 🔼 **Jump**: Raise hand up
+  - 🔽 **Roll**: Lower hand down
+  - ✊ **Skateboard Mode**: Make a fist
+
+
+
 - 🔍 **Hand Detection**
   - Real time hand tracking with frame by frame analysis
   - Multi hand support
