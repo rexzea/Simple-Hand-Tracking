@@ -1,0 +1,24 @@
+name: Auto Commit Bot
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Git
+        run: |
+          git config --global user.name "Bot Commit"
+          git config --global user.email "satriabam01@gmail.com"
+
+      - name: Buat perubahan dan commit
+        run: |
+          echo "Update: $(date)" >> update.log
+          git add update.log
+          git commit -m "Auto update: $(date)"
+          git push
