@@ -2,7 +2,7 @@ name: Auto Commit Bot
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"  
 
 jobs:
   commit:
@@ -13,8 +13,8 @@ jobs:
 
       - name: Setup Git
         run: |
-          git config --global user.name "Bot Commit"
-          git config --global user.email "satriabam01@gmail.com"
+          git config --global user.name "rexzea-bot"
+          git config --global user.email "rexzea@users.noreply.github.com"
 
       - name: Buat perubahan dan commit
         run: |
