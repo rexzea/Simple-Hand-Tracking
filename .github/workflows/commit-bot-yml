@@ -13,21 +13,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          persist-credentials: false  
 
       - name: Setup Git
         run: |
           git config --global user.name "rexzea-bot"
           git config --global user.email "178272406+rexzea@users.noreply.github.com"
 
-      - name: Buat perubahan kecil 
+      - name: Buat perubahan kecil
         run: |
           echo "Terakhir update: $(date)" > update.log
           git add update.log
           git commit -m "Auto update: $(date)" || echo "Tidak ada perubahan untuk commit"
 
       - name: Pull perubahan terbaru
-        run: git pull origin main --rebase || echo "Tidak perlu pull"
+        run: |
+          git pull origin main --rebase || echo "Tidak ada perubahan di remote"
 
       - name: Push perubahan ke repo
         env:
