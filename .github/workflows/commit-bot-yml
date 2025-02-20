@@ -21,11 +21,12 @@ jobs:
           git config --global user.name "rexzea-bot"
           git config --global user.email "178272406+rexzea@users.noreply.github.com"
 
-      - name: Paksa sinkronisasi dengan remote
+      - name: Paksa Sinkronisasi dengan Remote
         run: |
           git fetch --all
-          git reset --hard origin/main  # Paksa sinkronisasi dengan remote
-          git pull origin main --force  # Tarik perubahan terbaru dengan paksa
+          git checkout main
+          git reset --hard origin/main  # Paksa branch lokal agar sama persis dengan remote
+          git pull origin main --rebase  # Tarik perubahan terbaru dengan rebase
 
       - name: Buat perubahan kecil (biar bisa commit)
         run: |
@@ -37,4 +38,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/rexzea/Simple-Hand-Tracking.git main
+          git push origin main --force
