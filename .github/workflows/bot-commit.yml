@@ -2,8 +2,8 @@ name: Auto Commit Bot
 
 on:
   schedule:
-    - cron: "0 */5 * * *"  # Jalankan setiap 5 jam
-  workflow_dispatch:  # Bisa dijalankan manual
+    - cron: "0 */5 * * *"  
+  workflow_dispatch:  
 
 jobs:
   auto-commit:
@@ -14,20 +14,20 @@ jobs:
         uses: actions/checkout@v4
         with:
           persist-credentials: false
-          fetch-depth: 0  # Ambil semua riwayat commit
+          fetch-depth: 0  
 
       - name: Setup Git
         run: |
           git config --global user.name "rexzea-bot"
           git config --global user.email "178272406+rexzea@users.noreply.github.com"
 
-      - name: Paksa Sinkronisasi dengan Remote
+      - name: Sinkronisasi Remote
         run: |
           git fetch --all
-          git reset --hard origin/main  # Hapus semua perubahan lokal & samakan dengan remote
-          git pull origin main --rebase  # Pastikan selalu up-to-date
+          git reset --hard origin/main
+          git pull origin main --rebase
 
-      - name: Buat perubahan kecil (biar bisa commit)
+      - name: Perubahan (biar bisa commit)
         run: |
           echo "Terakhir update: $(date)" > update.log
           git add update.log
